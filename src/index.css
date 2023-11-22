@@ -1,14 +1,74 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
+/* Header section*/
 #navContainer {
-    background:linear-gradient( to right, rgb(166, 185, 206), lightsteelblue, rgb(166, 185, 206));
+    background:linear-gradient( to right, rgb(65, 86, 110), rgb(123, 139, 159),rgb(65, 86, 110));
     box-shadow: 10px 10px 25px lightslategray;
+    padding: 10px;
 }
 
+#myName {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px rgb(65, 86, 110);
+}
+
+#navLinks {
+    padding-left: 20%;
+}
+
+#aboutMeLink {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 7% 0 70%;
+    color: ghostwhite;
+    
+}
+
+#aboutMeLink:hover {
+    cursor: pointer;
+}
+
+#portfolioLink {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 7%;
+    color: ghostwhite;
+}
+
+#portfolioLink:hover {
+    cursor: pointer;
+}
+
+#resumeLink {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 7%;
+    color: ghostwhite;
+}
+
+#resumeLink:hover {
+    cursor: pointer;
+}
+
+#contactMeLink {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 7%;
+    color: ghostwhite;
+}
+
+#contactMeLink:hover {
+    cursor: pointer;
+}
+
+/* Footer section*/
 #footerContainer {
-    background:linear-gradient( to right, rgb(166, 185, 206), lightsteelblue, rgb(166, 185, 206))
+    background:linear-gradient( to right, rgb(65, 86, 110), rgb(123, 139, 159),rgb(65, 86, 110));
 }
 
 /* About me section*/

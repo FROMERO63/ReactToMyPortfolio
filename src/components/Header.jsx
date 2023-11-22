@@ -3,12 +3,12 @@ import Navbar from './UI/Navbar';
 
 export default function Header() {
   return (
-    <nav id="navContainer"> 
-      <div>Frank Romero
-        <div>
-          <Navbar/>
+    <nav id="navContainer">
+        <div class="navbar-item" id="myName">Frank Romero
+          <div>
+            <Navbar/>
+          </div>
         </div>
-      </div>
     </nav>
   );
 }
