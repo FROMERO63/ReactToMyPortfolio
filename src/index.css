@@ -66,10 +66,6 @@
     cursor: pointer;
 }
 
-/* Footer section*/
-#footerContainer {
-    background:linear-gradient( to right, rgb(65, 86, 110), rgb(123, 139, 159),rgb(65, 86, 110));
-}
 
 /* About me section*/
 #aboutMeContainer{
@@ -218,3 +214,50 @@
     background:linear-gradient( to right, rgb(65, 86, 110), rgb(123, 139, 159),rgb(65, 86, 110));
 }
 
+/* Footer section*/
+#footerContainer {
+    background:linear-gradient( to right, rgb(65, 86, 110), rgb(123, 139, 159),rgb(65, 86, 110));
+    height: fit-content;
+    padding: 25px 0;
+}
+
+#footerLinks {
+    margin: 0 37%;
+    padding: 10px 20px;
+}
+
+#githubLink {
+    font-size: 20px;
+    font-weight: bold;
+    color: ghostwhite;
+}
+
+#githubLink:hover {
+    cursor: pointer;
+}
+
+#linkedinLink {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5%;
+    color: ghostwhite;
+}
+
+#linkedinLink:hover {
+    cursor: pointer;
+}
+
+#otherLink {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5%;
+    color: ghostwhite;
+}
+
+#otherLink:hover {
+    cursor: pointer;
+}
+
+.footerLinks {
+    padding: 0 5px;
+}
