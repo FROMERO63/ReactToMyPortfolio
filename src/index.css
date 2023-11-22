@@ -1,8 +1,112 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #navContainer {
-    background-color: green;
+    background:linear-gradient( to right, rgb(166, 185, 206), lightsteelblue, rgb(166, 185, 206));
+    box-shadow: 10px 10px 25px lightslategray;
 }
 
 #footerContainer {
-    background-color: green;
+    background:linear-gradient( to right, rgb(166, 185, 206), lightsteelblue, rgb(166, 185, 206))
+}
+
+/* About me section*/
+#aboutMeContainer{
+    background-color: transparent;
+    margin: 25px 10px;
+    padding: 10px;
+}
+
+#aboutMeCard{
+    background-color: ghostwhite;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px lightslategray;
+}
+
+#aboutMeHeader {
+    background:linear-gradient( to right, rgb(166, 185, 206), lightsteelblue, rgb(166, 185, 206));
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+#aboutMeContent {
+    padding: 2% 5%;
+    height: fit-content;
+}
+
+#profileImg {
+    max-width: fit-content;
+    max-height: 200px;
+    float: left;
+    border-radius: 20px;
+}
+
+#bio {
+    margin: 15px;
+    display: flex;
+    padding-left: 20px;
+}
+
+#quote {
+    font-weight: bold;
+}
+
+/* Contact me section*/
+#contactCard{
+    background-color: ghostwhite;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px lightslategray;
+}
+
+#contactContainer{
+    background-color: transparent;
+    margin: 25px 10px;
+    padding: 10px;
+}
+
+#cardHeader {
+    background:linear-gradient( to right, rgb(166, 185, 206), lightsteelblue, rgb(166, 185, 206));
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 30px;
+}
+
+.field {
+    text-align: center;
+    padding: 0 30%;
+}
+
+.input {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textInput {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textareaContainer {
+    text-align: center;
+    padding: 0 10%;
+}
+
+#submitButton {
+   margin: 15px;
+   font-weight: bold;
+   padding: 5px 20px;
+   font-size: 15px;
+   border-radius: 8px;
+   border: none;
+   background-color: rgb(148, 177, 216);
+   transition-duration: 0.4s;
+}
+
+#submitButton:hover {
+    background-color: rgb(78, 135, 211);
+    color: white;
+    cursor: pointer;
 }
 
