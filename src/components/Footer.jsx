@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer> 
+    <footer id="footerContainer"> 
         <p>
             This is the Footer
         </p>
