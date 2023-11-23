@@ -44,6 +44,7 @@
     cursor: pointer;
 }
 
+
 #resumeLink {
     font-size: 25px;
     font-weight: bold;
@@ -261,3 +262,150 @@
 .footerLinks {
     padding: 0 5px;
 }
+
+/* Resume section*/
+#resumeContainer{
+    background-color: transparent;
+    margin: 25px 10px;
+    padding: 10px;
+}
+
+#resumeCard{
+    background-color: ghostwhite;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px lightslategray;
+}
+
+#resumeHeader {
+    background:linear-gradient( to right, rgb(166, 185, 206), lightsteelblue, rgb(166, 185, 206));
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+#resumeContent {
+    padding: 2% 5%;
+    height: fit-content;
+    border-style: solid;
+    margin: 1% 10%;
+    border-color: lightslategray;
+    border-width: 0.5px;
+    box-shadow: 10px 10px 25px lightslategray;
+}
+
+#resumeTitleContainer {
+    background:linear-gradient( to right, ghostwhite, lightsteelblue, ghostwhite);
+    display: flex;
+    padding-left: 20px;
+    height: 50px;
+    padding: 2%;
+    text-align: center;
+}
+
+#resumeName {
+    margin: 15px;
+    display: flex;
+    padding: 5px 20% 8px 15%;
+    font-size: 35px;
+    border-bottom: solid ;
+    border-bottom-color: rgb(19, 96, 127);
+    font-weight: bold;
+}
+
+#resumeSection {
+    margin: 15px;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid ;
+    border-bottom-color: rgb(19, 96, 127);
+    height: fit-content;
+}
+
+#resumeSectionEnd {
+    margin: 15px;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    height: fit-content;
+}
+
+#resumeTitle {
+    font-weight: bold;
+    text-align: center;
+    color:rgb(19, 96, 127);
+    padding: 0 18%
+}
+
+.skillsList {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2%;
+   
+   }
+
+.professionalSkillsList {
+    font-size: 11px;
+   
+   }
+
+.expereinceJob {
+    font-size: 15px;
+    font-weight: bold;
+   
+   }
+
+.experienceInfo {
+    font-size: 11px;
+   
+   }
+
+.experienceLocation {
+    font-size: 12px;
+    padding-bottom: 10px;
+   
+   }
+
+.education {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.resumeFontColor {
+    color:rgb(42, 54, 59);
+}
+
+.skillsTitles {
+    font-weight: bold;
+}
+
+#resumeSectionTitle {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#careerObjective {
+    margin: 5px;
+    padding-bottom: 5px;
+    max-width: 490px;
+    font-size: 11px;
+}
+
+#downloadButton {
+    margin: 15px 15%;
+    font-weight: bold;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(148, 177, 216);
+    transition-duration: 0.4s;
+ }
+ 
+ #downloadButton:hover {
+     background-color: rgb(78, 135, 211);
+     color: white;
+     cursor: pointer;
+ }
