@@ -38,6 +38,7 @@ body {
 
 #aboutMeLink:hover {
     cursor: pointer;
+    background-color: transparent;
 }
 
 #portfolioLink {
@@ -49,6 +50,7 @@ body {
 
 #portfolioLink:hover {
     cursor: pointer;
+    background-color: transparent;
 }
 
 
@@ -61,6 +63,7 @@ body {
 
 #resumeLink:hover {
     cursor: pointer;
+    background-color: transparent;
 }
 
 #contactMeLink {
@@ -72,6 +75,7 @@ body {
 
 #contactMeLink:hover {
     cursor: pointer;
+    background-color: transparent;
 }
 
 
@@ -80,6 +84,7 @@ body {
     background-color: transparent;
     margin: 25px 10px;
     padding: 10px;
+    /* display: none; */
 }
 
 #aboutMeCard{

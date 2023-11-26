@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -8,7 +7,7 @@ export default function Footer() {
             <a class="footerLinks" id= "githubLink" href="https://github.com/FROMERO63">
                 Github
             </a>
-            <a class="footerLinks" id= "linkedinLink" href="https://www.linkedin.com/in/frankluisromero/">
+            <a class="footerLinks" id= "linkedinLink" href="https://github.com/FROMERO63">
                 Linkedin
             </a>
             <a class="footerLinks" id= "otherLink" href="https://twitter.com/">

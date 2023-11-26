@@ -1,19 +1,21 @@
-export default function Nav() {
+
+export default function Nav( ) {
+
   return (
     <nav className="navbarContainer">
       <div class="navbar-start" id="navLinks">
-        <div class="navbar-item" id= "aboutMeLink">
+        <a class="navbar-item" id= "aboutMeLink" name="aboutMe">
           About Me
-        </div>
-        <div class="navbar-item" id= "portfolioLink">
+        </a>
+        <a class="navbar-item" id= "portfolioLink">
           Portfolio
-        </div>
-        <div class="navbar-item" id= "resumeLink">
+        </a>
+        <a class="navbar-item" id= "resumeLink">
           Resume
-        </div>
-        <div class="navbar-item" id= "contactMeLink">
+        </a>
+        <a class="navbar-item" id= "contactMeLink">
           Contact Me
-        </div>
+        </a>
       </div>
     </nav>
   );
