@@ -2,26 +2,28 @@
 export default function Header({ currentPage, handlePageChange }) {
   return (
     <nav id="navContainer">
-        <div class="navbar-item" id="myName">Frank Romero
-          <div>
-          <nav className="navbarContainer">
       <div class="navbar-start" id="navLinks">
-        <a class="navbar-item" id= "aboutMeLink" onClick={() => handlePageChange('AboutMe')} name="aboutMe">
+      <div class="navbar-item" id="myName">Frank Romero
+          </div>
+        <a class="navbar-item" id= {currentPage === 'AboutMe' ? 'sectionLinkActive' : 'sectionLink'} 
+        onClick={() => handlePageChange('AboutMe')} name="aboutMe">
           About Me
         </a>
-        <a class="navbar-item" id= "portfolioLink" onClick={() => handlePageChange('Portfolio')}>
+        <a class="navbar-item" id= {currentPage === 'Portfolio' ? 'sectionLinkActive' : 'sectionLink'} 
+        onClick={() => handlePageChange('Portfolio')}>
           Portfolio
         </a>
-        <a class="navbar-item" id= "resumeLink" onClick={() => handlePageChange('Resume')}>
+        <a class="navbar-item" id= {currentPage === 'Resume' ? 'sectionLinkActive' : 'sectionLink'} 
+        onClick={() => handlePageChange('Resume')}>
           Resume
         </a>
-        <a class="navbar-item" id= "contactMeLink" onClick={() => handlePageChange('Contact')}>
+        <a class="navbar-item" id= {currentPage === 'Contact' ? 'sectionLinkActive' : 'sectionLink'}  
+        onClick={() => handlePageChange('Contact')}>
           Contact Me
         </a>
       </div>
-    </nav>
-          </div>
-        </div>
+  
+         
     </nav>
   );
 }
