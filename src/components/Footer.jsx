@@ -5,15 +5,15 @@ export default function Footer() {
     <footer id="footerContainer"> 
       <div id="footerLinks">
         <div class="navbar-start">
-            <div class="footerLinks" id= "githubLink">
+            <a class="footerLinks" id= "githubLink" href="https://github.com/FROMERO63">
                 Github
-            </div>
-            <div class="footerLinks" id= "linkedinLink">
+            </a>
+            <a class="footerLinks" id= "linkedinLink" href="https://www.linkedin.com/in/frankluisromero/">
                 Linkedin
-            </div>
-            <div class="footerLinks" id= "otherLink">
-                OtherLink
-            </div>
+            </a>
+            <a class="footerLinks" id= "otherLink" href="https://twitter.com/">
+                Twitter
+            </a>
         </div>
       </div>
     </footer>
