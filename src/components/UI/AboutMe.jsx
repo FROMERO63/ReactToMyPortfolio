@@ -1,4 +1,4 @@
-import profilePhoto from './profilePic.jpg'
+import profilePhoto from '../../assets/profilePhoto.jpg'
 
 
 export default function AboutMe() {

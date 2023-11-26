@@ -199,8 +199,11 @@
     margin: 3%;
 }
 
+#projectCards{
+    box-shadow: 5px 5px 10px lightslategray;
+}
 .projectTitle {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: white;
     text-shadow: 3px 3px rgb(65, 86, 110);
@@ -209,6 +212,14 @@
 .projectLink {
     color: white;
     text-shadow: 3px 3px rgb(65, 86, 110);
+    font-size: 12px;;
+}
+
+.projectLink:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: 3px 3px rgb(65, 86, 110);
+    font-size: 12px;;
 }
 
 #cardBackground {
