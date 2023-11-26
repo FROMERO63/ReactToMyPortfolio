@@ -1,3 +1,17 @@
+import resume from '../../assets/Resume.pdf'
+
+const downLoadFile = ()=>{
+  const file= resume;
+  const pdfUrl = file;
+  const link = document.createElement("a");
+  link.href = pdfUrl;
+  link.download = "Resume.pdf"; 
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+
+}
+
 export default function Resume() {
     return (
       <section id="resumeContainer">
@@ -5,7 +19,7 @@ export default function Resume() {
           <header class="card-header" id="resumeHeader">
             <p class="card-header-title">Resume</p>
           </header>
-          <button id="downloadButton">Download Resume</button>
+          <button id="downloadButton" value="download" onClick={downLoadFile}>Download Resume</button>
           <div class="card-content" id="resumeContent">
               <div id="resumeTitleContainer">
               <p id="resumeTitle" >Los Angeles,CA || 562-618-2380 || romerofrank63@gmail.com</p>
