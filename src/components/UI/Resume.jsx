@@ -17,7 +17,7 @@ export default function Resume() {
       <section id="resumeContainer">
         <div class="card" id="resumeCard">
           <header class="card-header" id="resumeHeader">
-            <p class="card-header-title">Resume</p>
+            <p class="card-header-title" id="titleText">Resume</p>
           </header>
           <button id="downloadButton" value="download" onClick={downLoadFile}>Download Resume</button>
           <div class="card-content" id="resumeContent">

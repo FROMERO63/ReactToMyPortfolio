@@ -85,19 +85,19 @@ const handleIncorrectEmail = (e) => {
       <section id="contactContainer">
         <form class="card" id="contactCard" onSubmit={handleFormSubmit}>
           <header class="card-header" id="cardHeader">
-            <p class="card-header-title is-centered">Contact Me</p>
+            <p class="card-header-title is-centered" id="titleText">Contact Me</p>
           </header>
           <div class="card-content"> 
             <div class="field">
-              <label class="label">Name</label>
-                <input class="input" placeholder="name" name="name" onChange={handleInputChange} value={name}></input>
+              <label class="label" id="labels">Name</label>
+                <input class="input" placeholder="name" name="name" onChange={handleInputChange} value={name} id="inputField"></input>
             </div>
             <div class="field">
-              <label class="label">Email</label>
-                <input class="input" placeholder="email" name="email" onChange={handleInputChange} onMouseLeave={handleIncorrectEmail} value={email}></input>
+              <label class="label" id="labels">Email</label>
+                <input class="input" placeholder="email" name="email" onChange={handleInputChange} onMouseLeave={handleIncorrectEmail} value={email}  id="inputField"></input>
             </div>
             <div id="textareaContainer">
-              <label class="label">Message</label>
+              <label class="label" id="labels">Message</label>
                 <div class="control">
                   <input class="input" id="textInput" placeholder="send me a message" type="textarea" name="message" onChange={handleInputChange} onMouseLeave={handleNoMessage} value={message}></input>
                 </div>

@@ -14,7 +14,7 @@ export default function AboutMe() {
               <p id="quote" >"Design is not just what it looks like and feels like. Design is how it works." -- Steve Jobs</p>
               </div>
               <div id="bio">
-              <p>Coming from the fashion industry, quotes like this inspire me to use all of my skill sets in creating great designs. Whether it had been in creating the assortment for back to school or in my current endevour as a SWE, my mind is always focused on great design. My background in Buying required a great amount of attention to detail, creativity, problem solving, and analytics. Throughout my journey into coding, I have infused these honed skills and learned many more. With my Full-Stack certificate from UCLA extended program, I look forward to continuing my learning and journey as a SWE.</p>
+              <p id="bioText">Coming from the fashion industry, quotes like this inspire me to use all of my skill sets in creating great designs. Whether it had been in creating the assortment for back to school or in my current endevour as a SWE, my mind is always focused on great design. My background in Buying required a great amount of attention to detail, creativity, problem solving, and analytics. Throughout my journey into coding, I have infused these honed skills and learned many more. With my Full-Stack certificate from UCLA extended program, I look forward to continuing my learning and journey as a SWE.</p>
               </div>
             </div>
         </div>

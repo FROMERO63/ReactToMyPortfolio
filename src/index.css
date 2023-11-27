@@ -410,3 +410,411 @@ body {
      color: white;
      cursor: pointer;
  }
+
+
+ @media (max-width: 800px) {
+    #myName {
+        font-size: 25px;
+        padding-right: 20%;
+    }
+    #sectionLink {
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+
+    }
+    #sectionLinkActive {
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+    }
+    #sectionLink:hover {
+        font-size: 18px;
+
+    }
+    #sectionLinkActive:hover {
+        font-size: 20px;
+    }
+
+    #aboutMeHeader {
+        font-size: 25px;
+    }
+    
+    #profileImg {
+        max-height: 200px;
+
+    }
+    #quote {
+        font-size: 13px;
+    }
+
+    #bioText {
+        font-size: 13px;
+    }
+
+    #titleText {
+        font-size: 25px;
+    }
+    .projectTitle {
+        font-size: 15px;
+    }
+    .projectLink {
+        font-size: 8px;
+    }
+    #resumeTitle {
+        font-size: 10px;
+    }
+    #downloadButton {
+        font-size: 12px;
+
+     }
+
+     .resumeFontColor{
+        font-size: 25px;
+     }
+     #resumeSectionTitle{
+        font-size: 13px;
+        padding:0;
+     }
+     .skillsList{
+        font-size: 10px;
+        padding-right: 50px;
+     }
+     #careerObjective{
+        font-size: 9px;
+        padding-right: 5px;
+     }
+     .skillsTitles{
+        font-size: 10px;
+        padding-left: 10px;
+     }
+     .professionalSkillsList{
+        font-size: 7px;
+        padding-left: 10px;
+     }
+     .expereinceJob{
+        font-size: 10px;
+        padding-left: 2px;
+     }
+     .experienceInfo{
+        font-size: 9px;
+        padding-left: 2px;
+     }
+     .experienceLocation{
+        font-size: 8px;
+        padding-left: 2px;
+     }
+     .education{
+        font-size: 9px;
+        padding-left: 3px;
+     }
+     #inputField{
+        font-size: 10px;
+        width: 200px;
+        height: 30px;
+     }
+     #textInput{
+        font-size: 10px;
+        width: 400px;
+        height: 30px;
+     }
+     #labels{
+        font-size:11px;
+     }
+     #submitButton{
+        font-size: 13px;
+     }
+  
+     #githubLink{
+        font-size:18px;
+        padding-left:0%;
+     }
+       
+     #linkedinLink{
+        font-size:18px;
+     }
+     #otherLink{
+        font-size:18px;
+     }
+  }
+
+  
+ @media (max-width: 490px) {
+    #myName {
+        font-size: 18px;
+        padding-right: 2%;
+    }
+    #sectionLink {
+        font-size: 15px;
+        font-weight: bold;
+        display: flex;
+
+    }
+    #sectionLinkActive {
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+    }
+    #sectionLink:hover {
+        font-size: 15px;
+
+    }
+    #sectionLinkActive:hover {
+        font-size: 16px;
+    }
+
+    #aboutMeHeader {
+        font-size: 18px;
+    }
+    
+    #profileImg {
+        max-height: 150px;
+
+    }
+    #quote {
+        font-size: 11px;
+    }
+
+    #bioText {
+        font-size: 10px;
+    }
+
+    #titleText {
+        font-size: 25px;
+    }
+    .projectTitle {
+        font-size: 6px;
+    }
+    .projectLink {
+        font-size: 3px;
+    }
+    #resumeTitle {
+        font-size: 10px;
+    }
+    #downloadButton {
+        font-size: 10px;
+
+     }
+
+     .resumeFontColor{
+        font-size: 18px;
+     }
+     #resumeSectionTitle{
+        font-size: 13px;
+        padding:0;
+     }
+     .skillsList{
+        font-size: 6px;
+        padding-right: 50px;
+     }
+     #careerObjective{
+        font-size: 6px;
+        padding-right: 5px;
+     }
+     .skillsTitles{
+        font-size: 8px;
+        padding-left: 10px;
+     }
+     .professionalSkillsList{
+        font-size: 7px;
+        padding-left: 10px;
+     }
+     .expereinceJob{
+        font-size: 7px;
+        padding-left: 2px;
+     }
+     .experienceInfo{
+        font-size: 6px;
+        padding-left: 2px;
+     }
+     .experienceLocation{
+        font-size: 6px;
+        padding-left: 2px;
+     }
+     .education{
+        font-size: 7px;
+        padding-left: 3px;
+     }
+     #inputField{
+        font-size: 10px;
+        width: 200px;
+        height: 30px;
+     }
+     #textInput{
+        font-size: 10px;
+        width: 400px;
+        height: 30px;
+     }
+     #labels{
+        font-size:11px;
+     }
+     #submitButton{
+        font-size: 12px;
+     }
+     #githubLink{
+        font-size:12px;
+        padding-left:0%;
+     }
+       
+     #linkedinLink{
+        font-size:12px;
+     }
+     #otherLink{
+        font-size:12px;
+     }
+  }
+
+   
+ @media (max-width: 320px) {
+    #myName {
+        font-size: 12px;
+        padding-right: 0%;
+    }
+    #sectionLink {
+        font-size: 10px;
+        font-weight: bold;
+        display: flex;
+
+    }
+    #sectionLinkActive {
+        font-size: 11px;
+        font-weight: bold;
+        display: flex;
+    }
+    #sectionLink:hover {
+        font-size: 10px;
+
+    }
+    #sectionLinkActive:hover {
+        font-size: 11px;
+    }
+    #aboutMeContainer{
+        background-color: transparent;
+        margin: 2px 2px;
+        padding: 8px;
+        height: 60vh;
+    }
+    #portfolioContainer{
+        background-color: transparent;
+        margin: 1px 1px;
+        padding: 8px;
+        height: fit-content;
+    }
+
+    #columnsSet{
+        display: inline-block;
+    }
+
+    #contactContainer{
+        background-color: transparent;
+        margin: 2px 2px;
+        padding: 8px;
+        height: 60vh;
+    }
+    #resumeContainer{
+        background-color: transparent;
+        margin: 2px 2px;
+        padding: 8px;
+        height: fit-content;
+    }
+
+    #aboutMeHeader {
+        font-size: 10px;
+    }
+    
+    #profileImg {
+        max-height: 100px;
+
+    }
+    #quote {
+        font-size: 8px;
+    }
+
+    #bioText {
+        font-size: 7px;
+    }
+
+    #titleText {
+        font-size: 10px;
+    }
+    .projectTitle {
+        font-size: 2px;
+    }
+    .projectLink {
+        font-size: 1px;
+    }
+    #resumeTitle {
+        font-size: 5px;
+    }
+    #downloadButton {
+        font-size: 5px;
+
+     }
+
+     .resumeFontColor{
+        font-size: 10px;
+     }
+     #resumeSectionTitle{
+        font-size: 9px;
+        padding:0;
+     }
+     .skillsList{
+        font-size: 3px;
+        padding-right: 50px;
+     }
+     #careerObjective{
+        font-size: 4px;
+        padding-right: 5px;
+     }
+     .skillsTitles{
+        font-size: 4px;
+        padding-left: 10px;
+     }
+     .professionalSkillsList{
+        font-size: 4px;
+        padding-left: 10px;
+     }
+     .expereinceJob{
+        font-size: 3px;
+        padding-left: 2px;
+     }
+     .experienceInfo{
+        font-size: 3px;
+        padding-left: 2px;
+     }
+     .experienceLocation{
+        font-size: 3px;
+        padding-left: 2px;
+     }
+     .education{
+        font-size: 3px;
+        padding-left: 3px;
+     }
+     #inputField{
+        font-size: 5px;
+        width: 150px;
+        height: 20px;
+     }
+     #textInput{
+        font-size: 5px;
+        width: 220px;
+        height: 20px;
+     }
+     #labels{
+        font-size:8px;
+     }
+     #submitButton{
+        font-size: 6px;
+     }
+     #githubLink{
+        font-size:8px;
+        padding-left:0%;
+     }
+       
+     #linkedinLink{
+        font-size:8px;
+     }
+     #otherLink{
+        font-size:8px;
+     }
+  }

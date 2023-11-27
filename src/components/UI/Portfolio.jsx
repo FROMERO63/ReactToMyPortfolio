@@ -10,10 +10,10 @@ export default function Portfolio() {
       <section id="portfolioContainer">
         <div class="card" id="portfolioCard">
             <header class="card-header" id="portfolioHeader">
-                <p class="card-header-title">Portfolio</p>
+                <p class="card-header-title" id="titleText">Portfolio</p>
             </header>
           <div  id="portfolioContent">
-            <div class="columns is-multiline is-mobile">
+            <div class="columns is-multiline is-mobile" id="columSet">
             <div class="column is-one-third" id="projectCards">
                 <div class="card" id="projects">
                     <div class="card-image">
